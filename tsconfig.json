@@ -18,6 +18,16 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "soyyer-lib": [
+        "dist/soyyer-lib",
+        "dist/soyyer-lib"
+      ],
+      "soyyer-lib/*": [
+        "dist/soyyer-lib/*",
+        "dist/soyyer-lib/*"
+      ]
+    }
   }
 }
